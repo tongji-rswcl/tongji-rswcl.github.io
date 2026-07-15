@@ -1,0 +1,234 @@
+body {
+				background: #D3CCE3;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				background-repeat: no-repeat;
+			
+			}
+
+			.mainbody {
+				width: 150px;
+				height: 600px;
+				background-color: aliceblue;
+				position: absolute;
+				display: inline-block;
+				margin-top: 2%;
+			}
+
+			.card1 {
+				width: 60%;
+				height: 30px;
+				background-color: lightgray;
+				border-radius: 5%;
+				/* display: inline-block; */
+				position: relative;
+				font-size: 15px;
+				margin-bottom: 5px;
+				margin: 10px auto;
+				text-align: center;
+			}
+
+			.card2 {
+				width: 60%;
+				height: 30px;
+				background-color: lightgray;
+				border-radius: 5%;
+				position: relative;
+				font-size: 15px;
+				margin-bottom: 5px;
+				margin: 10px auto;
+				text-align: center;
+				/* 	display: inline-block; */
+			}
+
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+
+			.me {
+				text-align: center;
+				display: block;
+			}
+
+			.girl {
+				width: 3.125rem;
+				height: 3.125rem;
+				background-size: contain;
+				display: block;
+				margin: 10px auto;
+			}
+
+			.mainbody2 {
+				width: 1100px;
+				height: 800px;
+				margin: 88px auto;
+				display: inline-block;
+			}
+
+			.mainbody3 {
+				width: 130px;
+				height: 600px;
+				background-color: aliceblue;
+				position: absolute;
+				display: inline-block;
+				margin-top:2%;
+			}
+
+			.new {
+				text-decoration: none;
+				border-style: 2px solid blue;
+				background-color: #aaaaff;
+			}
+
+			.card3,
+			.card31,
+			.card33,
+			.card32,
+			.card34{
+				width: 160px;
+				background-color: #f9fcfc;
+				order-radius: 5%;
+				position: relative;
+				font-size: 15px;
+				margin-bottom: 5px;
+				margin-left: 10px;
+				margin-top: 25px;
+				display: inline-block;
+				
+			}
+			.card3:hover,
+			.card31:hover,
+			.card33:hover,
+			.card32:hover,
+			.card34:hover{
+				background-color: #D3CCE3;
+				margin-top: -10px;
+			}
+
+			.main2,
+			.main3 {
+				display: inline-block;
+				/* width:1010px; */
+			}
+
+			.foot {
+				width: 1200px;
+				clear: left;
+				background-color: rgba(0, 0, 0, 1.00);
+				margin-top: 10px;
+				color: rgba(251, 247, 247, 1.00);
+				padding-top: 1%;
+				padding-right: 2%;
+				padding-bottom: 5%;
+				padding-left: 2%;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				margin-left: 10px;
+				font-family: "楷体", "隶书", "宋体", "微软雅黑", "新宋体", "站酷酷黑", "华文行楷", "华文宋体", "黑体", "方正舒体", "等线", "仿宋";
+				text-align: left;
+			}
+
+			.f0 {
+				font-size: small;
+			}
+
+			body hr {
+				color: rgba(247, 241, 241, 1.00);
+			}
+
+			.im {
+				width: 1.8rem;
+				height: 1.8rem;
+				background-size: contain;
+				display: inline-block;
+				margin: 10px auto;
+			}
+
+			.whole {
+				display: flex;
+				justify-content: center;
+			}
+			.whole:hover{
+				color:  darkgreen;
+			}
+			.card6{
+				text-align: center;
+				font-size: 13px;
+				background-color: white;
+				display: block;
+				height: 80px;
+			}
+			.card6:hover{
+				color:  #4f9eed;
+			}
+
+			.creta{
+				background-color: white;
+				width:80%;
+				height:100px;
+				text-align: center;
+				margin:10px auto;
+			}
+			.creta:hover{
+				color:  #4f9eed;
+			}
+			
+			.fans:hover{
+				color: #4f9eed;
+			}
+			
+			
+			}
+			.main3{
+				display:flex;
+				justify-content: flex-start;
+				flex-wrap: wrap;
+			}
+			.community{
+				background-color: whitesmoke;
+			}
+			.im11{
+				width:6.25rem ;
+				height:6.25rem;
+			}
+			#fst{
+				margin-left: 200px;
+			}
+			
+			.m2:hover  {
+				box-shadow:0px 0.5rem  0.5rem 0px rgba(170, 170, 255, 0.2)
+			
+			}
+			.m2:hover .model,
+			.m2:focus .model{
+				/* margin-top: -10px; */
+			}
+			.m2 img{
+				background-position: center top;
+				-ms-transition:all 0.3s ease ;
+				-webkit-transition:all 0.3s ease;
+				-moz-transition:all 0.3s ease;
+				transition:all all 0.3s ease ;
+			}
+			.m2 .detail{
+				position: absolute;
+				/* top:-50px; */
+				left:0;
+				right:0;
+				padding: 15px 10px;
+				background: transparent;
+				opacity: 0;
+			}
+			.txt:hover{
+				color: limegreen;
+				
+			}
+			
+			#comment{
+				padding: 1.5rem;
+			}
+             .model{
+				 height:160px;
+				 width:160px;
+			 }
