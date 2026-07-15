@@ -1,0 +1,34 @@
+// script.js
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+  const images = document.querySelectorAll(".carousel-images img");
+  const prevButton = document.getElementById("prev");
+  const nextButton = document.getElementById("next");
+  let currentIndex = 0;
+
+  // 更新图片显示
+  function updateImages() {
+    images.forEach((img, index) => {
+      img.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  // 切换到上一张
+  prevButton.addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateImages();
+  });
+
+  // 切换到下一张
+  nextButton.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImages();
+  });
+
+  // 自动切换图片（可选）
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImages();
+  }, 50000); // 每5秒切换一次
+});
+
